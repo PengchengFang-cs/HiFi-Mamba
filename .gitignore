@@ -1,0 +1,86 @@
+
+# codex:training-upload-filter start
+# Model checkpoints and binaries
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.bin
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pkl
+*.joblib
+
+# Data and archives
+data/
+dataset/
+datasets/
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+
+# Generated outputs and logs
+output/
+outputs/
+result/
+results/
+run/
+runs/
+log/
+logs/
+wandb/
+checkpoints/
+weights/
+artifacts/
+
+# Plotting code and generated figures
+*plot*.py
+*viz*.py
+*visual*.py
+*figure*.py
+*draw*.py
+figures/
+figure/
+plots/
+plot/
+visualization/
+visualisation/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tif
+*.tiff
+*.svg
+*.pdf
+
+# Notebook/cache/temporary
+*.ipynb
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+tmp/
+temp/
+cache/
+
+# Secrets and local environment
+.env
+.env.*
+*.key
+*.pem
+*.secret
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+# codex:training-upload-filter end
