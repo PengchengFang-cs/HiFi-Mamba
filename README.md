@@ -1,6 +1,15 @@
-# HiFi-Mamba
+# HiFi-Mamba: Dual-Stream W-Laplacian Enhanced Mamba for High-Fidelity MRI Reconstruction
 
-This repository contains the public V2 implementation of HiFi-Mamba for MRI reconstruction. The release keeps the core model and training code only; checkpoints, logs, masks, datasets, and experiment outputs are intentionally excluded.
+[![arXiv](https://img.shields.io/badge/arXiv-2508.09179-b31b1b.svg)](https://arxiv.org/abs/2508.09179)
+[![AAAI 2026](https://img.shields.io/badge/AAAI-2026-blue.svg)](https://aaai.org/)
+
+Official implementation of **HiFi-Mamba: Dual-Stream W-Laplacian Enhanced Mamba for High-Fidelity MRI Reconstruction**, accepted by **AAAI 2026**.
+
+Hongli Chen*, Pengcheng Fang*, Yuxia Chen, Yingxuan Ren, Jing Hao, Fangfang Tang, Xiaohao Cai, Shanshan Shan, Feng Liu
+
+Paper: [arXiv:2508.09179](https://arxiv.org/abs/2508.09179) | [PDF](https://arxiv.org/pdf/2508.09179)
+
+This repository contains the public implementation of HiFi-Mamba for MRI reconstruction. The release keeps the core model and training code only; checkpoints, logs, masks, datasets, and experiment outputs are intentionally excluded.
 
 ## Contents
 
@@ -60,3 +69,16 @@ Useful options:
 The public dataloaders generate undersampling masks through `code/dataloaders/subsample.py`. No fixed private mask files are required or included.
 
 By default, training artifacts are written under `outputs/`, which is ignored by git.
+
+## Citation
+
+If you find this repository useful, please cite:
+
+```bibtex
+@inproceedings{chen2026hifimamba,
+  title={HiFi-Mamba: Dual-Stream W-Laplacian Enhanced Mamba for High-Fidelity MRI Reconstruction},
+  author={Chen, Hongli and Fang, Pengcheng and Chen, Yuxia and Ren, Yingxuan and Hao, Jing and Tang, Fangfang and Cai, Xiaohao and Shan, Shanshan and Liu, Feng},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  year={2026}
+}
+```
