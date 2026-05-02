@@ -1,0 +1,52 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+
+# Local environments
+.env
+.venv/
+env/
+venv/
+
+# Training outputs
+outputs/
+model/
+models/
+checkpoints/
+pretrained_ckpt/
+logs/
+logs_equispaced/
+wandb/
+runs/
+
+# Datasets, masks, checkpoints, and generated results
+data/
+datasets/
+masks/
+mask/
+*.pth
+*.pt
+*.ckpt
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.mat
+*.nii
+*.nii.gz
+*.log
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+
+# Build artifacts
+build/
+dist/
+*.so
+*.o
+*.cuo
